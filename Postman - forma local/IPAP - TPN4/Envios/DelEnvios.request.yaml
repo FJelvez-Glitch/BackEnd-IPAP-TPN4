@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/envios/1
+method: DELETE
+order: 4252965275097042

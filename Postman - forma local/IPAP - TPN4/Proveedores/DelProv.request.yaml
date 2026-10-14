@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/proveedores/2
+method: DELETE
+order: 2675806324449723

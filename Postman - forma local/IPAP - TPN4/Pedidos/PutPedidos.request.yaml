@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:3000/api/envios/2
+method: PUT
+body:
+  type: json
+  content: "   {\r
+
+    \        \"FechaPedido\": \"2001-01-01T03:00:00.000Z\",\r
+
+    \        \"Cantidad\": 20,\r
+
+    \        \"PrecioUnit\": 100,\r
+
+    \        \"CodigoProd\": 1,\r
+
+    \        \"PrecioTotal\": 10000,\r
+
+    \        \"ImportTotal\": 100000\r
+
+    \    }"
+order: 3800860331867705

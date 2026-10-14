@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/api/proveedores/2
+method: PUT
+body:
+  type: json
+  content: " {\r
+
+    \        \"Telefono\": 283823,\r
+
+    \        \"Correo\": \"ejemplo@ejemplo.com\",\r
+
+    \        \"Nombre\": \"Proveedores internacionales\",\r
+
+    \        \"codigoPedido\": 1,\r
+
+    \        \"compañiaEnvio\": 1\r
+
+    \    }"
+order: 2487984361337105

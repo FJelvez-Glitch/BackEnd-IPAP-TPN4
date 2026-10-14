@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:3000/api/empleados/2
+method: PUT
+body:
+  type: json
+  content: " {\r
+
+    \        \"DNI\": 249585719,\r
+
+    \        \"FechNacimiento\": \"2001-01-01T03:00:00.000Z\",\r
+
+    \        \"NombreYApellido\": \"Natalia Herreras\",\r
+
+    \        \"Correo\": \"example@example.com\",\r
+
+    \        \"Telefono\": 298451001,\r
+
+    \        \"ObraSocial\": \"Sancord seguros\"\r
+
+    \    }"
+order: 4501929641970479

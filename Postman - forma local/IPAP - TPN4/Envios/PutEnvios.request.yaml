@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/api/envios/1
+method: PUT
+body:
+  type: json
+  content: " {\r
+
+    \        \"correo\": \"ejemplo@ejemplo.com\",\r
+
+    \        \"telefono\": 298459600,\r
+
+    \        \"nombre\": \"Envios Internacionales\"\r
+
+    }"
+order: 4033545245304408

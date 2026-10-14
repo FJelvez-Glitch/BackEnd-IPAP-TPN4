@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/envios
+method: GET
+order: 1791941870552

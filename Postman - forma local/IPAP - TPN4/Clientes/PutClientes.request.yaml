@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/api/clientes/2
+method: PUT
+body:
+  type: json
+  content: " {\r
+
+    \        \"NombreYApellido\": \"Andres Jelvez\",\r
+
+    \        \"Telefono\": 29670080,\r
+
+    \        \"DNI\": 1132111111,\r
+
+    \        \"Correo\": \"correoejemplo@hotmail.com\"\r
+
+    \    }"
+order: 1613797111837552
